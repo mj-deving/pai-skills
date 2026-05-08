@@ -1,4 +1,4 @@
-# PAI Skills
+# pai-skills
 
 Public-ready skill collection scaffold for Codex/Claude-style AI coding agents.
 
@@ -18,7 +18,7 @@ This repository is staged for public GitHub release. Automated audit hard gates 
 
 ## Visual Skill Map
 
-Open the [interactive skill tree](https://mj-deving.github.io/pai-skills/skill-tree.html) for an overview of the public skill tree. It is generated from `skills/**/SKILL.md`, uses the MJ brand system, and can also be opened locally from `docs/skill-tree.html`.
+Open the [interactive skill tree](https://github.com/mj-deving/pai-skills/blob/main/docs/skill-tree.html) for an overview of the public skill tree. It is generated from `skills/**/SKILL.md`, uses the MJ brand system, and can also be opened locally from `docs/skill-tree.html`.
 
 The map includes root skills and subskills with descriptions. See `docs/skill-system.md` for how progressive disclosure works: agents route from `name` + `description`, load `SKILL.md` only after activation, and read bundled resources only when needed.
 
